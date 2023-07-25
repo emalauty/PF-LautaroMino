@@ -1,0 +1,356 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: ProximaNova, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.img-productos-styles, .francia, .japon, .espana, .brasil {
+  width: 100%;
+  border-radius: 7px;
+  height: 158px;
+}
+
+.margin-b15, .inputs .input3, .inputs .input2, .inputs .input1 {
+  margin-bottom: 15px;
+}
+
+.logo-styles, .logo, .logo-footer {
+  width: 64px;
+  height: 64px;
+  border-radius: 30px;
+}
+
+h1 {
+  padding-top: 150px;
+}
+
+.viaja {
+  text-align: center;
+  font-size: 50px;
+}
+
+.lugares {
+  border: solid 2px black;
+  width: 15%;
+  text-align: center;
+  background-color: aliceblue;
+  margin-left: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.abc {
+  display: flex;
+  border: solid 2px black;
+  width: 100%;
+  padding: 30px;
+  text-align: left;
+  background-color: rgb(115, 115, 221);
+  position: fixed;
+  margin-bottom: 300px;
+  z-index: 4;
+  justify-content: start;
+}
+.abc .a {
+  margin-left: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.abc .b {
+  margin-left: 30px;
+  font-size: 30px;
+  text-decoration: none;
+  color: aliceblue;
+  margin-top: 10px;
+}
+.abc .c {
+  margin-left: 30px;
+  font-size: 30px;
+  text-decoration: none;
+  color: aliceblue;
+  margin-top: 10px;
+}
+.abc .nav:hover {
+  color: rgba(255, 255, 255, 0.664);
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productos .productos-estilos {
+  border: solid 1px rgb(216, 215, 215);
+  height: 400px;
+  width: 300px;
+  margin: 10px 20px;
+  border-radius: 7px;
+}
+.productos .productos-estilos:hover {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.productos .productos-estilos h2 {
+  padding-left: 10px;
+  padding-top: 20px;
+  font-size: large;
+}
+.productos .productos-estilos h5 {
+  font-size: larger;
+  padding-left: 10px;
+}
+
+.nos {
+  color: rgb(0, 0, 0);
+  padding-top: 200px;
+  margin-left: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.inputs {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.inputs .input1 {
+  margin-top: 15px;
+}
+.inputs .input2 {
+  margin-bottom: 15px;
+}
+.inputs .input3 {
+  margin-bottom: 15px;
+}
+
+.gmail {
+  margin-left: 30px;
+  width: 300px;
+  height: 30px;
+}
+
+.name {
+  width: 300px;
+  height: 30px;
+  margin-left: 15px;
+}
+
+.apellido {
+  margin-left: 15px;
+  width: 25%;
+  height: 30px;
+}
+
+.mensaje {
+  margin-left: 12px;
+  width: 300px;
+  height: 80px;
+  padding: 20px 0px 40px 0px;
+}
+
+.li {
+  margin-bottom: 125px;
+}
+
+.nos {
+  color: rgb(0, 0, 0);
+  padding-top: 200px;
+  margin-left: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.link {
+  color: var(--color-secondary-dark);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+hr {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  height: 1px;
+  width: 100%;
+  background-color: rgb(173, 174, 175);
+  border: none;
+}
+
+.espacio {
+  width: 100%;
+  height: 75px;
+}
+
+.carrusel {
+  height: 500px;
+  margin-top: 15px;
+}
+
+.pie {
+  background-color: rgb(115, 115, 221);
+  border: solid 2px black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 300px;
+}
+
+.info {
+  color: aliceblue;
+  margin: 50px;
+  width: 25%;
+}
+
+.pg {
+  color: aliceblue;
+  margin: 100px;
+  width: 25%;
+  margin-top: 130px;
+  margin-left: 20px;
+}
+.pg ul li {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.redes {
+  color: aliceblue;
+  width: 25%;
+  margin: 30px;
+  margin-top: 110px;
+}
+.redes i {
+  margin: 30px;
+  color: aliceblue;
+}
+.redes .ig:hover {
+  color: violet;
+}
+.redes .wa:hover {
+  color: green;
+}
+.redes .fb:hover {
+  color: blue;
+}
+
+.copyright {
+  color: aliceblue;
+  margin: 25px;
+  margin-top: 100px;
+}
+
+.logo-footer {
+  margin-bottom: 25px;
+}
+
+.todo-sucursales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.todo-sucursales .sucursales {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 600px;
+  margin: 25px;
+  padding: 10px;
+}
+.todo-sucursales .sucursales:hover {
+  background-color: rgb(207, 207, 207);
+}
+.todo-sucursales .mapa-sucursal {
+  width: 580px;
+  height: 300px;
+}
+
+.todo-nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.todo-nosotros .todo-nosotros-h2 {
+  margin: 50px;
+  margin-left: 0px;
+}
+
+.contacto-nosotros {
+  width: 600px;
+}
+
+.problema-nosotros {
+  width: 600px;
+}
+.problema-nosotros .problema {
+  margin-bottom: 60px;
+  margin-left: 60px;
+}
+.problema-nosotros .todo-problema-h2 {
+  margin: 50px;
+}
+
+.galeria {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 200px);
+  grid-template-areas: "img1 img2 img3 img4" "img1 img2 img3 img4" "img5 img5 img3 img4" "img5 img5 img3 img4" "img5 img5 img3 img4";
+}
+.galeria .img1 {
+  grid-area: img1;
+}
+.galeria .img2 {
+  grid-area: img2;
+}
+.galeria .img3 {
+  grid-area: img3;
+}
+.galeria .img4 {
+  grid-area: img4;
+}
+.galeria .img5 {
+  grid-area: img5;
+}
+.galeria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+button {
+  width: 100px;
+  margin-left: 170px;
+  margin-top: 15px;
+}
+
+@media (max-width: 992px) {
+  .lugares {
+    width: 150px;
+  }
+  i {
+    margin: 20px;
+  }
+  .galeria {
+    width: 90%;
+    margin: 5%;
+  }
+}
+@media (max-width: 768px) {
+  .pg {
+    width: 50%;
+  }
+  .redes {
+    width: 50%;
+  }
+  .galeria {
+    height: 60%;
+  }
+}
+@media (max-width: 576px) {
+  .lugares {
+    margin-top: 0px;
+  }
+}
+
+/*# sourceMappingURL=codigo.css.map */

@@ -1,0 +1,5 @@
+@mixin info ($color,$margin,$width){
+    color: $color;
+    margin: $margin;
+    width: $width;
+}

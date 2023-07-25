@@ -1,0 +1,30 @@
+
+
+    @media (max-width: 992px) {
+    .lugares {
+      width: 150px;
+    }
+    i {
+      margin: 20px;
+    }
+    .galeria {
+      width: 90%;
+      margin: 5%;
+    }
+  }
+  @media (max-width: 768px) {
+    .pg {
+      width: 50%;
+    }
+    .redes {
+      width: 50%;
+    }
+    .galeria {
+      height: 60%;
+    }
+  }
+  @media (max-width: 576px) {
+    .lugares {
+      margin-top: 0px;
+    }
+  }

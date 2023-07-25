@@ -1,0 +1,35 @@
+  .productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  .productos-estilos{
+    border: solid 1px rgb(216, 215, 215);
+    height: 400px;
+    width: 300px;
+    margin: 10px 20px;
+    border-radius: 7px;
+    &:hover{
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+    h2{
+      padding-left: 10px;
+    padding-top: 20px;
+    font-size: large;
+    }
+    h5{
+      font-size: larger;
+      padding-left: 10px;
+    }
+  }
+  
+}
+  
+  
+    
+  
+  
+  
+  
+  
