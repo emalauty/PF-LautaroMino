@@ -15,7 +15,7 @@
   margin-bottom: 15px;
 }
 
-.logo-styles, .logo, .logo-footer {
+.logo-styles, .logo-footer, .nav .nav-list li a .logo {
   width: 64px;
   height: 64px;
   border-radius: 30px;
@@ -42,8 +42,7 @@ h1 {
   margin-top: 30px;
 }
 
-.abc {
-  display: flex;
+.nav {
   border: solid 2px black;
   width: 100%;
   padding: 30px;
@@ -52,30 +51,24 @@ h1 {
   position: fixed;
   margin-bottom: 300px;
   z-index: 4;
-  justify-content: start;
 }
-.abc .a {
+.nav .nav-list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.nav .nav-list li a {
   margin-left: 10px;
   font-size: 30px;
   text-decoration: none;
   color: aliceblue;
+  padding: 15px;
 }
-.abc .b {
-  margin-left: 30px;
-  font-size: 30px;
-  text-decoration: none;
-  color: aliceblue;
-  margin-top: 10px;
-}
-.abc .c {
-  margin-left: 30px;
-  font-size: 30px;
-  text-decoration: none;
-  color: aliceblue;
-  margin-top: 10px;
-}
-.abc .nav:hover {
+.nav .nav-list li a:hover {
   color: rgba(255, 255, 255, 0.664);
+}
+.nav .nav-list li a .logo {
+  margin-left: 1050px;
 }
 
 .productos {
@@ -189,6 +182,14 @@ hr {
   margin-top: 15px;
 }
 
+.carousel-control-prev {
+  margin: 0px;
+}
+
+.carousel-control-next {
+  margin: 0px;
+}
+
 .pie {
   background-color: rgb(115, 115, 221);
   border: solid 2px black;
@@ -205,10 +206,10 @@ hr {
 
 .pg {
   color: aliceblue;
-  margin: 100px;
+  margin: 50px;
   width: 25%;
   margin-top: 130px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 .pg ul li {
   text-decoration: none;
@@ -338,7 +339,7 @@ button {
 }
 @media (max-width: 768px) {
   .pg {
-    width: 50%;
+    width: 100%;
   }
   .redes {
     width: 50%;
@@ -346,10 +347,31 @@ button {
   .galeria {
     height: 60%;
   }
+  .info {
+    width: 100%;
+  }
+  .carousel-control-prev {
+    margin: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .carousel-control-next {
+    margin: 0px;
+  }
 }
 @media (max-width: 576px) {
   .lugares {
     margin-top: 0px;
+  }
+  .carrusel {
+    height: 350px;
+  }
+  .carousel-control-prev {
+    margin: 0px;
+    margin-right: 100px;
+  }
+  .carousel-control-next {
+    margin: 0px;
   }
 }
 

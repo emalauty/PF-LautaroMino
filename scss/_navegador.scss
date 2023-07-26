@@ -1,5 +1,4 @@
-.abc {
-    display: flex;
+  .nav{
     border: $ideal-border;
     width: 100%;
     padding: 30px;
@@ -8,36 +7,26 @@
     position: fixed;
     margin-bottom: 300px;
     z-index: 4;
-    justify-content: start;
-  
-  .a {
-    margin-left: 10px;
-    font-size: 30px;
-    text-decoration: none;
-    color: aliceblue;
     
-  }
-  
-  .b {
-    margin-left: 30px;
-    font-size: 30px;
-    text-decoration: none;
-    color: aliceblue;
-    margin-top: 10px;
-  }
-  
-  .c {
-    margin-left: 30px;
-    font-size: 30px;
-    text-decoration: none;
-    color: aliceblue;
-    margin-top: 10px;
-  }
-  
-  .nav{
-    &:hover{
-      color: $chill-hover;
+  .nav-list{
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+
+       li a{
+            margin-left: 10px;
+            font-size: 30px;
+            text-decoration: none;
+            color: aliceblue;
+            padding: 15px;
+           &:hover{
+            color: $chill-hover;
+          }
+            .logo {
+               @extend .logo-styles;
+               margin-left: 1050px;
+               
+              }
+        }
+      }
     }
-    
-  }
-}

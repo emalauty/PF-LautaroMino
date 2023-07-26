@@ -1,10 +1,9 @@
   
   .pg {
-    color: aliceblue;
-    margin: 100px;
-    width: 25%;
+    @include info (aliceblue,50px,25%);
     margin-top: 130px;
-    margin-left: 20px;
+    margin-left: 50px;
+
   
     ul li {
     text-decoration: none;

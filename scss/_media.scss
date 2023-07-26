@@ -14,7 +14,7 @@
   }
   @media (max-width: 768px) {
     .pg {
-      width: 50%;
+      width: 100%;
     }
     .redes {
       width: 50%;
@@ -22,9 +22,39 @@
     .galeria {
       height: 60%;
     }
+    .info{
+      width: 100%;
+    }
+    .carousel-control-prev{
+      margin: 0px;
+      margin-right: 00px;
+      margin-left: 0px;
+      
+  }
+  .carousel-control-next{
+      margin: 0px;
+      
+  }
   }
   @media (max-width: 576px) {
     .lugares {
       margin-top: 0px;
     }
+    .carrusel {
+      height: 350px;
+    }
+    .carousel-control-prev{
+      margin: 0px;
+      margin-right: 100px;
+      
+   }
+   .carousel-control-next{
+      margin: 0px;
+      
+    }
+   
+
+   
+    
   }
+   
