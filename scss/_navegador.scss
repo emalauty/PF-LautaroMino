@@ -1,32 +1,59 @@
-  .nav{
-    border: $ideal-border;
-    width: 100%;
-    padding: 30px;
-    text-align: left;
-    background-color: $bg-color;
+  .navegador{
+    background-color: rgb(140, 127, 255);
     position: fixed;
-    margin-bottom: 300px;
-    z-index: 4;
-    
-  .nav-list{
-    display:flex;
-    list-style-type: none;
+    width: 100%;
+    display: flex;
     align-items: center;
-
-       li a{
-            margin-left: 10px;
-            font-size: 30px;
-            text-decoration: none;
-            color: aliceblue;
-            padding: 15px;
-           &:hover{
-            color: $chill-hover;
-          }
-            .logo {
-               @extend .logo-styles;
-               margin-left: 1050px;
-               
-              }
-        }
+    justify-content: space-between;
+    z-index: 4;
+      img{
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin: 10px;
       }
-    }
+      .menu{
+        display: none;
+      }
+      ul{
+        list-style: none;
+        display: flex;
+        justify-content: end;
+        order: -1;
+      } li a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+        font-size: 30px;
+      }
+  }    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   

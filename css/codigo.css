@@ -15,7 +15,7 @@
   margin-bottom: 15px;
 }
 
-.logo-styles, .logo-footer, .nav .nav-list li a .logo {
+.logo-styles, .logo-footer {
   width: 64px;
   height: 64px;
   border-radius: 30px;
@@ -42,33 +42,36 @@ h1 {
   margin-top: 30px;
 }
 
-.nav {
-  border: solid 2px black;
-  width: 100%;
-  padding: 30px;
-  text-align: left;
-  background-color: rgb(115, 115, 221);
+.navegador {
+  background-color: rgb(140, 127, 255);
   position: fixed;
-  margin-bottom: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   z-index: 4;
 }
-.nav .nav-list {
+.navegador img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+.navegador .menu {
+  display: none;
+}
+.navegador ul {
+  list-style: none;
   display: flex;
-  list-style-type: none;
-  align-items: center;
+  justify-content: end;
+  order: -1;
 }
-.nav .nav-list li a {
-  margin-left: 10px;
-  font-size: 30px;
+.navegador li a {
+  color: white;
   text-decoration: none;
-  color: aliceblue;
-  padding: 15px;
-}
-.nav .nav-list li a:hover {
-  color: rgba(255, 255, 255, 0.664);
-}
-.nav .nav-list li a .logo {
-  margin-left: 1050px;
+  display: block;
+  padding: 10px 20px;
+  font-size: 30px;
 }
 
 .productos {
@@ -100,7 +103,6 @@ h1 {
 .nos {
   color: rgb(0, 0, 0);
   padding-top: 200px;
-  margin-left: 50px;
   padding-bottom: 50px;
   width: 100%;
 }
@@ -151,7 +153,6 @@ h1 {
 .nos {
   color: rgb(0, 0, 0);
   padding-top: 200px;
-  margin-left: 50px;
   padding-bottom: 50px;
   width: 100%;
 }
@@ -180,6 +181,7 @@ hr {
 .carrusel {
   height: 500px;
   margin-top: 15px;
+  z-index: 0;
 }
 
 .carousel-control-prev {
@@ -360,6 +362,13 @@ button {
   }
 }
 @media (max-width: 576px) {
+  .sucursales {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    margin: 25px;
+    padding: 10px;
+  }
   .lugares {
     margin-top: 0px;
   }
@@ -372,6 +381,39 @@ button {
   }
   .carousel-control-next {
     margin: 0px;
+  }
+  .navegador {
+    z-index: 4;
+  }
+  .navegador .menu {
+    display: block;
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+    order: -1;
+  }
+  .navegador .menu:hover + ul {
+    left: 0px;
+  }
+  .navegador ul {
+    position: fixed;
+    background-color: white;
+    width: 80vw;
+    z-index: 5;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    top: 0;
+    height: 100vh;
+    padding-top: 100px;
+    left: -500px;
+    transition: 0.5s;
+  }
+  .navegador ul:hover {
+    left: 0px;
+  }
+  .navegador ul li a {
+    color: black;
   }
 }
 
