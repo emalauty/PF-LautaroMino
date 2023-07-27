@@ -4,13 +4,13 @@
   font-family: ProximaNova, Arial, sans-serif;
   box-sizing: border-box;
 }
-
+/* imagenes de donde pueden viajar los clientes y poder comprar el viaje */
 .img-productos-styles, .francia, .japon, .espana, .brasil {
   width: 100%;
   border-radius: 7px;
   height: 158px;
 }
-
+/* margin de cada input */
 .margin-b15, .inputs .input3, .inputs .input2, .inputs .input1 {
   margin-bottom: 15px;
 }
@@ -24,12 +24,12 @@
 h1 {
   padding-top: 150px;
 }
-
+/* texto de viaja */
 .viaja {
   text-align: center;
   font-size: 50px;
 }
-
+/* texto de lugares */
 .lugares {
   border: solid 2px black;
   width: 15%;
@@ -41,7 +41,7 @@ h1 {
   margin-bottom: 100px;
   margin-top: 30px;
 }
-
+/* todo esto es mi navegador y lo que contiene */
 .navegador {
   background-color: rgb(140, 127, 255);
   position: fixed;
@@ -73,7 +73,7 @@ h1 {
   padding: 10px 20px;
   font-size: 30px;
 }
-
+/*estilos del producto  */
 .productos {
   display: flex;
   flex-wrap: wrap;
@@ -120,7 +120,7 @@ h1 {
 .inputs .input3 {
   margin-bottom: 15px;
 }
-
+/* nformacion para poder enviar un mensaje por si hay algun problema (forma de comunicacion con el cliente) */
 .gmail {
   margin-left: 30px;
   width: 300px;
@@ -191,7 +191,7 @@ hr {
 .carousel-control-next {
   margin: 0px;
 }
-
+/* footer */
 .pie {
   background-color: rgb(115, 115, 221);
   border: solid 2px black;
@@ -217,7 +217,7 @@ hr {
   text-decoration: none;
   color: aliceblue;
 }
-
+/* redes sociales */
 .redes {
   color: aliceblue;
   width: 25%;
@@ -292,7 +292,7 @@ hr {
 .problema-nosotros .todo-problema-h2 {
   margin: 50px;
 }
-
+/* mi galeria de fotos con estilo grid */
 .galeria {
   margin-top: 25px;
   display: grid;
@@ -326,7 +326,7 @@ button {
   margin-left: 170px;
   margin-top: 15px;
 }
-
+/* y los media */
 @media (max-width: 992px) {
   .lugares {
     width: 150px;
