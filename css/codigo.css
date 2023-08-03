@@ -4,13 +4,13 @@
   font-family: ProximaNova, Arial, sans-serif;
   box-sizing: border-box;
 }
-/* imagenes de donde pueden viajar los clientes y poder comprar el viaje */
+
 .img-productos-styles, .francia, .japon, .espana, .brasil {
   width: 100%;
   border-radius: 7px;
   height: 158px;
 }
-/* margin de cada input */
+
 .margin-b15, .inputs .input3, .inputs .input2, .inputs .input1 {
   margin-bottom: 15px;
 }
@@ -24,12 +24,12 @@
 h1 {
   padding-top: 150px;
 }
-/* texto de viaja */
+
 .viaja {
   text-align: center;
   font-size: 50px;
 }
-/* texto de lugares */
+
 .lugares {
   border: solid 2px black;
   width: 15%;
@@ -41,7 +41,7 @@ h1 {
   margin-bottom: 100px;
   margin-top: 30px;
 }
-/* todo esto es mi navegador y lo que contiene */
+
 .navegador {
   background-color: rgb(140, 127, 255);
   position: fixed;
@@ -73,7 +73,7 @@ h1 {
   padding: 10px 20px;
   font-size: 30px;
 }
-/*estilos del producto  */
+
 .productos {
   display: flex;
   flex-wrap: wrap;
@@ -120,7 +120,7 @@ h1 {
 .inputs .input3 {
   margin-bottom: 15px;
 }
-/* nformacion para poder enviar un mensaje por si hay algun problema (forma de comunicacion con el cliente) */
+
 .gmail {
   margin-left: 30px;
   width: 300px;
@@ -191,13 +191,14 @@ hr {
 .carousel-control-next {
   margin: 0px;
 }
-/* footer */
+
 .pie {
   background-color: rgb(115, 115, 221);
   border: solid 2px black;
   display: flex;
   flex-wrap: wrap;
   margin-top: 300px;
+  width: 100%;
 }
 
 .info {
@@ -217,7 +218,7 @@ hr {
   text-decoration: none;
   color: aliceblue;
 }
-/* redes sociales */
+
 .redes {
   color: aliceblue;
   width: 25%;
@@ -280,6 +281,7 @@ hr {
 
 .contacto-nosotros {
   width: 600px;
+  margin-left: 50px;
 }
 
 .problema-nosotros {
@@ -292,13 +294,21 @@ hr {
 .problema-nosotros .todo-problema-h2 {
   margin: 50px;
 }
-/* mi galeria de fotos con estilo grid */
+
 .galeria {
   margin-top: 25px;
+  width: 100%;
+  height: 80%;
+  padding: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 200px);
+  grid-template-rows: repeat(5, 200px);
   grid-template-areas: "img1 img2 img3 img4" "img1 img2 img3 img4" "img5 img5 img3 img4" "img5 img5 img3 img4" "img5 img5 img3 img4";
+}
+.galeria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .galeria .img1 {
   grid-area: img1;
@@ -315,19 +325,17 @@ hr {
 .galeria .img5 {
   grid-area: img5;
 }
-.galeria img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 button {
   width: 100px;
   margin-left: 170px;
   margin-top: 15px;
 }
-/* y los media */
+
 @media (max-width: 992px) {
+  .galeria {
+    grid-template-rows: repeat(5, 150px);
+  }
   .lugares {
     width: 150px;
   }
@@ -340,6 +348,10 @@ button {
   }
 }
 @media (max-width: 768px) {
+  .galeria {
+    height: 50%;
+    grid-template-rows: repeat(5, 100px);
+  }
   .pg {
     width: 100%;
   }
@@ -362,12 +374,20 @@ button {
   }
 }
 @media (max-width: 576px) {
+  .galeria {
+    grid-template-rows: repeat(5, 50px);
+    padding: 25px;
+  }
   .sucursales {
     border: 2px solid black;
     border-radius: 10px;
-    width: 300px;
+    width: 200px;
     margin: 25px;
     padding: 10px;
+  }
+  .sucursales .mapa-sucursal {
+    width: 100%;
+    height: 200px;
   }
   .lugares {
     margin-top: 0px;
